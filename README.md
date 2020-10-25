@@ -8,7 +8,13 @@ SO: Windows 10 Pro
 
 Log in to the Domain User Account in Windows 
 
-Go to Computer Management - then Local Users and Groups - Groups
-(inside the groups check the Docker-users group)
+Search for Computer Management in start menu and run it as domain administrator/administrator
 
+Go to Computer Management - then Local Users and Groups
+
+now go into the Groups folder and search for Docker-users group
+
+go to Docker-users group properties and add domain user in it
+
+and Click on OK, now close computer managment and start your docker it will start without error.
 
